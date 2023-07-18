@@ -1,0 +1,47 @@
+*{
+    margin: 0; padding: 0;
+    
+ }
+
+
+
+.gene{
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+}
+
+.gene img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.gene .btn{
+    padding:10px 20px;
+    border: none;
+    border-left: 3px solid #c4baba84;
+    border-right: 3px solid #c4baba84;
+    margin: 24px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight:600;
+    color: #c02424;
+    background: #b9b5b5;
+    cursor: pointer;
+    transition: all ease 0.1s;
+    -webkit-box-shadow: -7px 6px 63px -2px rgba(0,0,0,0.759);
+    -moz-box-shadow: -7px 6px 63px -2px rgba(0, 0, 0, 0.758);
+box-shadow: -7px 6px 63px -2px rgba(0, 0, 0, 0.758);
+
+}
+
+.gene .btn:hover{
+    color: #db1cdb;
+}
+
+.gene .btn .author{
+    margin: 8px;
+}
+
+
+
+
